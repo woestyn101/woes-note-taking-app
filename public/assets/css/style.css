@@ -1,0 +1,91 @@
+.nav-header {
+    background-color: #0ecbf1;
+     height: 4rem;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.db-notes {
+    background-color:white;
+}
+
+
+#title, #text {
+  color: #000000;
+  width: 100%;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#text {
+  resize: none;
+  height: 200px;
+  
+  padding-top: 15px;
+}
+
+#title {
+  height: 50px;
+  margin-top: 13px;
+  font-size: 2.5rem;
+}
+
+.content {
+    height: 600px;
+    padding: 20px;
+    padding-bottom: 40px;
+  
+}
+
+#postbutton {
+  height:fit-content;
+  border:white solid 0.1rem;
+  font-weight: bold;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+#clearbutton {
+  height:fit-content;
+  background-color: #b22222;
+  border:white solid 0.1rem;
+  color:white;
+  font-weight: bold;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+#newbutton {
+  height:fit-content;
+  background-color: #00563f;
+  border:white solid 0.1rem;
+  color:white;
+  font-weight: bold;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+#newbutton:hover {
+  background-color: #2a8000;
+}
+
+#clearbutton:hover {
+  background-color: #dc143c;
+}
+
+.title-list {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom:solid grey 1px;
+}

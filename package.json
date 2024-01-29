@@ -1,0 +1,21 @@
+{
+  "name": "mynote_taker_app",
+  "version": "1.0.0",
+  "description": "A note taking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "note",
+    "taking"
+  ],
+  "author": "Marius Du Plooy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  }
+}
