@@ -24,7 +24,7 @@ var uniqueID = uuid.v4();
 // Initialize an instance of Express.js
 const app = express();
 // Specify on which port the Express.js server will run
-const PORT = process.evn.PORT || 8080;
+const PORT = process.env.PORT || 8080;
 
 // Static middleware pointing to the public folder
 app.use(express.static('public'));
