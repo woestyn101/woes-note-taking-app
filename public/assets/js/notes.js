@@ -140,9 +140,9 @@ const getNotes = () =>
           })
           .then((data) => {
             console.log(data);
-            setTimeout(function(){
-              window.location.reload();
-           }, 500);
+          //   setTimeout(function(){
+          //     window.location.reload();
+          //  }, 500);
                                
           })
           .catch((error) => {
